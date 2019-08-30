@@ -1,0 +1,32 @@
+{
+  "name": "fars-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for FARS",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "node-telegram-bot-api": "^0.30.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teknologforeningen/fars-telegram-bot.git"
+  },
+  "keywords": [
+    "fars",
+    "telegram-bot"
+  ],
+  "author": "CastorK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Teknologforeningen/fars-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/Teknologforeningen/fars-telegram-bot#readme"
+}
